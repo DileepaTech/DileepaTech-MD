@@ -54,14 +54,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://github.com/PasiduLk/Pasindu-Md')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* secktorbot.tech/repo
-*Group:* secktorbot.tech/support
+*🍁 Repo:* pasindubot.tech/repo
+*Group:* pasindubot.tech/support
 *Deploy Your Own:*-
- SecktorBot.tech/youtube`
+ PasinduBot.tech/youtube`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -69,7 +69,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "Pasindu-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -97,13 +97,13 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-🔰 *${tlang().title}* 🔰
+🔰 *Pasindu-MD* 🔰
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.0.0
 *👤Owner:*  ${Config.ownername}
-*Powered by ${tlang().title}*
+*Powered by Pasindu-MD*
 `;
         let buttonMessaged = {
             image: {
