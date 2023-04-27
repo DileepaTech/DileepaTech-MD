@@ -47,14 +47,14 @@ cmd({
                 type: 1
             }]
             let buttonMessaged = {
-                image: { url: 'https://secktorbot.onrender.com/' },
+                image: { url: 'https://replit.com/@pasindusehan2/PasinduLk-Md/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
                 buttons: generatebutton,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'Secktor Session',
+                        title: 'Pasindu-MD Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
