@@ -74,7 +74,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp4 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
+                    description: `Pasindu / ${i.timestamp}`
                 })
             }
             const sections = [
@@ -245,7 +245,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
+                    description: `Pasindu / ${i.timestamp}`
                 })
             }
             const sections = [
@@ -279,7 +279,7 @@ cmd({
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
-            if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
+            if (!text) return citel.reply(`Example : ${prefix}yts Pasindu WhatsApp Bot`);
             let search = await yts(text);
             let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
             let no = 1;
