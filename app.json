@@ -1,5 +1,5 @@
 {
-  "name": "Pasindu-Md",
+  "name": "Dileepa Tech",
   
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   
@@ -17,7 +17,7 @@
     
   "description": "Name of Bot Owner",
     
-      "value": "Pasindu-MD"
+      "value": "Dileepa Tech"
   },
   
   "ALIVE_MESSAGE": {
@@ -159,7 +159,7 @@
 
     "description": "Put packname;authorname.",
 
-     "value": "PASINDU-MD🎊;pasindu✅",
+     "value": "Dileepa🎊;Dila✅",
 
      "required": false 
     
