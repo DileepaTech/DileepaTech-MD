@@ -13,14 +13,14 @@
 const {cmd,tlang} = require('../lib')
 cmd({
         pattern: "restart",
-        desc: "To restart bot",
+        desc: "To restart Dileepa Tech MD bot",
         category: "tools",
         filename: __filename
     },
     async(Void, citel,text,{ isCreator }) => {
    if (!isCreator) return citel.reply(tlang().owner)
             const { exec } = require("child_process")
-            citel.reply('Restarting Pasindu ')
+            citel.reply('Restarting Dileepa Tech MD ')
             exec('pm2 restart all')
     }
 );

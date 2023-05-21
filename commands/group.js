@@ -28,8 +28,8 @@ cmd({
                 citel.reply("Link Invalid, Please Send a valid whatsapp Group Link!");
             let result = text.split(" ")[0].split("https://chat.whatsapp.com/")[1];
             await Void.groupAcceptInvite(result)
-                .then((res) => citel.reply("🟩Joined Group"))
-                .catch((err) => citel.reply("Error in Joining Group"));
+                .then((res) => citel.reply("🟩Joined Group Dileepa Tech Wha BOT"))
+                .catch((err) => citel.reply("Error in Joining Group Dileepa Tech Wha BOT"));
 
         }
     )
@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Pasindu-Support*\n*Group Link:* https://chat.whatsapp.com/FHMxK3noQ86L4tTcJmZgCD`,
+            caption: `*Group Name: Dileepa Tech Wha BOT*\n*Group Link:* https://chat.whatsapp.com/EpengNAXffJ60XaNww1MDJ,
         });
 
     }
@@ -134,7 +134,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
     cmd({
-        pattern: "ujid",
+        pattern: "jid",
         desc: "get jid of all user in a group.",
         category: "owner",
         filename: __filename,
@@ -365,7 +365,7 @@ cmd({
 *🧩Role:* ${role}
 *🍁Level:* ${userq.level}
 *📥 Total Messages* ${ttms}
-*Powered by Pasindu*
+*Powered by Dileepa Tech Wha BOT*
 `;
             let buttonMessage = {
                 image: {
@@ -983,7 +983,7 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *🎐Level*: ${sck1.level}🍭
 ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
-║ *Enjoy🥳*
+║ *Enjoy🥳Dileepa Tech Wha BOT*
 ╚════════════╝
 `,
             }, {

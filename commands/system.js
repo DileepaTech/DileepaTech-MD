@@ -47,7 +47,7 @@ cmd({
                 type: 1
             }]
             let buttonMessaged = {
-                image: { url: 'https://replit.com/@pasindusehan2/PasinduLk-Md/' },
+                image: { url: 'https://replit.com//' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
