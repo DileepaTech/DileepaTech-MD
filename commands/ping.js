@@ -21,6 +21,6 @@ Secktor.cmd({
         var inital = new Date().getTime();
         await citel.reply('```Ping!!!```');
         var final = new Date().getTime();
-        return await citel.reply('*_Dileepa Tech Wha BOT_* *Pong*\n *' + (final - inital) + ' ms* ');
+        return await citel.reply('*_Dileepa_* *Pong*\n *' + (final - inital) + ' ms* ');
     }
 );

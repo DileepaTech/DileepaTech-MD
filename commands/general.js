@@ -55,15 +55,15 @@ cmd({
     },
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
-        let cap = `*🌐 Dileepa Tech Wha BOT� ♦️*
+        let cap = `*🌐 DileepaTech-𝗠𝗗 _𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ♦️*
 
-●. *Support group :*https://chat.whatsapp.com/EpengNAXffJ60XaNww1MDJ
+●. *Support group :* https://chat.whatsapp.com/EpengNAXffJ60XaNww1MDJ
 
 ●. *Github:* https://github.com/DileepaTech
 
-●. *Developer: https://github.com/DileepaTech*
+●. *Developer: https://github.com/DileepaTech/Dileepa-MD*
 
-★ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
+★DileepaTech ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
 
 `
         let buttonMessaged = {
@@ -171,7 +171,7 @@ cmd({
 .logo30 text
 
 
-★ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
+★DileepaTech-ᴍᴅ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
 `,
 
                 footer: tlang().footer,
@@ -413,7 +413,7 @@ cmd({
                 caption: `
 
 ┌────────────────────────────
-│  👨‍💻 *★Dileepa Tech MD★* 👨‍💻  *COMMANDS* 🎗️
+│  👨‍💻 *★DileepaTech★* 👨‍💻  *COMMANDS* 🎗️
 └────────────────────────────
 
 
@@ -482,7 +482,7 @@ cmd({
 │.sn
 └─────────◉
 
-★ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
+★DileepaTech ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
 `,
 
                 footer: tlang().footer,
@@ -555,7 +555,7 @@ cmd({
 ✅ *ACTIVE ADD AND LEFT MSJ -* .act events
 ❌ *DEACTIVE ADD AND LEFT MSJ -* .deact events
 
-★Dileepa Tech MD ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
+★ᴘᴀsɪɴᴅᴜ-ᴍᴅ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★
 `,
 
 
@@ -825,7 +825,7 @@ cmd({
 
 cmd({
 
-            pattern: "c",
+            pattern: "concmdnew",
 
             desc: "(menu cmdlist).",
 
@@ -940,7 +940,7 @@ cmd({
 
             let buttons = [{
 
-                    buttonId: `${prefix}promote `,
+                    buttonId: `${prefix}promote 94703657140`,
 
                     buttonText: {
 

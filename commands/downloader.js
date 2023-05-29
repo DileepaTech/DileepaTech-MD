@@ -163,7 +163,7 @@ cmd({
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
-            citel.reply("*Dileepa Tech MD Is Searching on YouTube* 🌎");
+            citel.reply("*Pasindu-MD Is Searching on YouTube* 🌎");
             if (!text) return citel.reply(`*Enter the search word* ❗`);
             let search = await yts(text);
             let textt = "*YouTube Search*\n\n Result From " + text + "\n\n━━━━━━━━━━━━━━━━━━━━━━━\n";
@@ -263,7 +263,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'audio/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `*★Dileepa Tech MD ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
+                        caption: `*★ᴘᴀsɪɴᴅᴜ-ᴍᴅ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
                         headerType: 4,
                     }
                     return Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
@@ -366,7 +366,7 @@ cmd({
 
                 let yts = require("secktor-pack");
 
-            citel.reply(`📽️ ━━━━━━━━━━ *Dileepa Tech MD* ━━━━━━━━━━ 📽️\n\n\n\nℹ️ *Title:* ${anu.title}\n\n🕑 *Duration:* ${anu.timestamp}\n\n👀 *Viewers:* ${anu.views}\n\n⬆️ *Uploaded:* ${anu.ago}\n\n🎗️ *Author:* ${anu.author.name}\n\n🗃️ *File_Size:* ${fileSizeInMegabytes} MB`);
+            citel.reply(`📽️ ━━━━━━━━━━ *PasinduLk-Md* ━━━━━━━━━━ 📽️\n\n\n\nℹ️ *Title:* ${anu.title}\n\n🕑 *Duration:* ${anu.timestamp}\n\n👀 *Viewers:* ${anu.views}\n\n⬆️ *Uploaded:* ${anu.ago}\n\n🎗️ *Author:* ${anu.author.name}\n\n🗃️ *File_Size:* ${fileSizeInMegabytes} MB`);
 
                 let search = await yts(text);
 
@@ -382,7 +382,7 @@ cmd({
 
                         fileName: `${titleYt}.mp4`,
 
-                        caption: `*★Dileepa Tech MD ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
+                        caption: `*★ᴘᴀsɪɴᴅᴜ-ᴍᴅ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
 
                         headerType: 4,
 
@@ -512,7 +512,7 @@ cmd({
 
                         fileName: `${titleYt}.mp3`,
 
-                        caption: `*★Dileepa Tech MD ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
+                        caption: `*★ᴘᴀsɪɴᴅᴜ-ᴍᴅ ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ★*`,
 
                         headerType: 4,
 
@@ -626,7 +626,7 @@ cmd({
 
                 let yts = require("secktor-pack");
 
-            citel.reply(`📂 ━━━━━━━━━ *Dileepa Tech MD* ━━━━━━━━━ 📽️\n\n\n\nℹ️ *Title:* ${anu.title}\n\n🕑 *Duration:* ${anu.timestamp}\n\n👀 *Viewers:* ${anu.views}\n\n⬆️ *Uploaded:* ${anu.ago}\n\n🎗️ *Author:* ${anu.author.name}\n\n🗃️ *File_Size:* ${fileSizeInMegabytes} MB`);
+            citel.reply(`📂 ━━━━━━━━━ *PasinduLk* ━━━━━━━━━ 📽️\n\n\n\nℹ️ *Title:* ${anu.title}\n\n🕑 *Duration:* ${anu.timestamp}\n\n👀 *Viewers:* ${anu.views}\n\n⬆️ *Uploaded:* ${anu.ago}\n\n🎗️ *Author:* ${anu.author.name}\n\n🗃️ *File_Size:* ${fileSizeInMegabytes} MB`);
 
                 let search = await yts(text);
 

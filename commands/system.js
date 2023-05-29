@@ -47,7 +47,7 @@ cmd({
                 type: 1
             }]
             let buttonMessaged = {
-                image: { url: 'https://replit.com//' },
+                image: { url: 'https://replit.com/@pasindusehan2/Dileepa-Md/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
@@ -256,7 +256,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Dileepa.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
