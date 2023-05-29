@@ -1,5 +1,5 @@
 {
-  "name": "Dileepa Tech",
+  "name": "Dileepa-Md",
   
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   
@@ -17,7 +17,7 @@
     
   "description": "Name of Bot Owner",
     
-      "value": "Dileepa Tech"
+      "value": "Dileepa-MD"
   },
   
   "ALIVE_MESSAGE": {
@@ -137,7 +137,7 @@
       
     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
       
-     "value": "Pasindu-MD"
+     "value": "Dileepa-MD"
   },
     "WORKTYPE": {
       
@@ -159,7 +159,7 @@
 
     "description": "Put packname;authorname.",
 
-     "value": "Dileepa🎊;Dila✅",
+     "value": "Dileepa-MD🎊;dileepa✅",
 
      "required": false 
     
@@ -174,5 +174,16 @@
   }
 
 }
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
 
 }
