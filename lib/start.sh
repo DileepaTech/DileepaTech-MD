@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting Pasindu-Md..."
+echo "Starting Dileepa..."
 node lib/client.js
 done
